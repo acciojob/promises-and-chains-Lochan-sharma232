@@ -1,5 +1,5 @@
 let user1 = document.getElementById("age");
-let user2 = document.getElementById("text");
+let user2 = document.getElementById("name");
 let form = document.querySelector("form");
 
 form.addEventListener("submit", function(e) {
