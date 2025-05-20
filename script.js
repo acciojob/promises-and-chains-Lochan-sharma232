@@ -12,9 +12,9 @@ form.addEventListener("submit", function(e) {
         let myPromise = new Promise(function(resolve, reject) {
             setTimeout(function() {
                 if (parseInt(user1.value) >= 18) {
-                    resolve("Welcome, John ,You can vote");
+                    resolve(`Welcome,${user2.value}.You can vote`);
                 } else {
-                    reject("Oh sorry Doe, You aren't old enough.");
+                    reject(`Oh sorry ${user2.value}. You aren't old enough.`);
                 }
             }, 1000); // 4-second delay
         });
