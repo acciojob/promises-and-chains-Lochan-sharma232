@@ -6,7 +6,7 @@ form.addEventListener("submit", function(e) {
     e.preventDefault();
 
     if (user1.value.length <= 0 || user2.value.length <= 0) {
-        alert("Please enter valid details.");
+        alert("Please enter valid details");
     } else {
         // Create a promise to simulate delay
         let myPromise = new Promise(function(resolve, reject) {
