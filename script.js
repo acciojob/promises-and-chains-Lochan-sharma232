@@ -16,7 +16,7 @@ form.addEventListener("submit", function(e) {
                 } else {
                     reject(`Oh sorry, ${user2.value}. You aren't old enough.`);
                 }
-            }, 4000); // 4-second delay
+            }, 1000); // 4-second delay
         });
 
         // Handle the result
