@@ -1,39 +1,4 @@
-//your JS code here. If required.{
-// //your JS code here. If required.
-// let user1=document.getElementById("age");
-// let user2=document.getElementById("text");
-// let form=document.querySelector("form");
-// 	form.addEventListener("submit",function(e){
-//         e.preventDefault();
-// 		if(user1.value.length<=0 || user2.value.length<=0){
-// 			alert("Please enter valid details.");
-// 		}else{
-// 			let myPromise=new Promise((resolve,reject)=>{
-// 		setTimeout(function() {
-// 			if(parseInt(user2.value)>=18){
-// 	  alert("Welcome,You can vote");		
-//     resolve()        
-//     }
-//             else	{
-// alert("Oh sorry . You aren't old enough.");
-// reject()
-// }	
-//     })
-// 	},4000)
-//     }
-//     }
-// // let myPromise2=new myPromise2((resolve,reject)=>{
-// // 	setTimeOut(function(age){
-// //        if(age<=18){
-// //  alert("Oh sorry . You aren't old enough.");
-// //        reject()
-// //        }
-// //     },4000)
-// // })
-// //     })
-
-
-	let user1 = document.getElementById("age");
+let user1 = document.getElementById("age");
 let user2 = document.getElementById("text");
 let form = document.querySelector("form");
 
